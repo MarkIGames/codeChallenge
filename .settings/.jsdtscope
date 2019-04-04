@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="node_modules/@babel/code-frame/lib"/>
+	<classpathentry excluding="transformation/|transformation/util/|config/helpers/|config/files/|config/|transformation/file/|config/validation/|tools/" kind="src" path="node_modules/@babel/core/lib"/>
+	<classpathentry excluding="helpers/|files/|validation/" kind="src" path="node_modules/@babel/core/lib/config"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/lib/config/files"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/lib/config/helpers"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/lib/config/validation"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/lib/tools"/>
+	<classpathentry excluding="util/|file/" kind="src" path="node_modules/@babel/core/lib/transformation"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/lib/transformation/file"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/lib/transformation/util"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/node_modules/debug/dist"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/node_modules/debug/src"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/node_modules/ms"/>
+	<classpathentry excluding="dist/|lib/" kind="src" path="node_modules/@babel/core/node_modules/source-map"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/node_modules/source-map/dist"/>
+	<classpathentry kind="src" path="node_modules/@babel/core/node_modules/source-map/lib"/>
+	<classpathentry excluding="node/|generators/" kind="src" path="node_modules/@babel/generator/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/generator/lib/generators"/>
+	<classpathentry kind="src" path="node_modules/@babel/generator/lib/node"/>
+	<classpathentry excluding="lib/|dist/" kind="src" path="node_modules/@babel/generator/node_modules/source-map"/>
+	<classpathentry kind="src" path="node_modules/@babel/generator/node_modules/source-map/dist"/>
+	<classpathentry kind="src" path="node_modules/@babel/generator/node_modules/source-map/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/helper-function-name/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/helper-get-function-arity/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/helper-plugin-utils/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/helper-plugin-utils/src"/>
+	<classpathentry kind="src" path="node_modules/@babel/helper-split-export-declaration/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/helpers/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/highlight/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/parser/bin"/>
+	<classpathentry kind="src" path="node_modules/@babel/parser/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/plugin-syntax-object-rest-spread/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/template/lib"/>
+	<classpathentry excluding="scope/lib/|scope/|path/lib/|path/inference/|path/" kind="src" path="node_modules/@babel/traverse/lib"/>
+	<classpathentry excluding="lib/|inference/" kind="src" path="node_modules/@babel/traverse/lib/path"/>
+	<classpathentry kind="src" path="node_modules/@babel/traverse/lib/path/inference"/>
+	<classpathentry kind="src" path="node_modules/@babel/traverse/lib/path/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/@babel/traverse/lib/scope"/>
+	<classpathentry kind="src" path="node_modules/@babel/traverse/lib/scope/lib"/>
+	<classpathentry kind="src" path="node_modules/@babel/traverse/node_modules/debug/dist"/>
+	<classpathentry kind="src" path="node_modules/@babel/traverse/node_modules/debug/src"/>
+	<classpathentry kind="src" path="node_modules/@babel/traverse/node_modules/ms"/>
+	<classpathentry excluding="comments/|builders/react/|asserts/|modifications/flow/|retrievers/|traverse/|modifications/|converters/|validators/generated/|validators/|builders/flow/|utils/react/|builders/generated/|validators/react/|asserts/generated/|utils/|clone/|constants/generated/|definitions/|constants/|builders/" kind="src" path="node_modules/@babel/types/lib"/>
+	<classpathentry excluding="generated/" kind="src" path="node_modules/@babel/types/lib/asserts"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/asserts/generated"/>
+	<classpathentry excluding="react/|flow/|generated/" kind="src" path="node_modules/@babel/types/lib/builders"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/builders/flow"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/builders/generated"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/builders/react"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/clone"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/comments"/>
+	<classpathentry excluding="generated/" kind="src" path="node_modules/@babel/types/lib/constants"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/constants/generated"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/converters"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/definitions"/>
+	<classpathentry excluding="flow/" kind="src" path="node_modules/@babel/types/lib/modifications"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/modifications/flow"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/retrievers"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/traverse"/>
+	<classpathentry excluding="react/" kind="src" path="node_modules/@babel/types/lib/utils"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/utils/react"/>
+	<classpathentry excluding="generated/|react/" kind="src" path="node_modules/@babel/types/lib/validators"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/validators/generated"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/lib/validators/react"/>
+	<classpathentry excluding="generators/|utils/" kind="src" path="node_modules/@babel/types/scripts"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/scripts/generators"/>
+	<classpathentry kind="src" path="node_modules/@babel/types/scripts/utils"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/@cnakazawa/watch"/>
+	<classpathentry kind="src" path="node_modules/@cnakazawa/watch/test"/>
+	<classpathentry kind="src" path="node_modules/@jest/console/build"/>
+	<classpathentry excluding="lib/|cli/|plugins/" kind="src" path="node_modules/@jest/core/build"/>
+	<classpathentry kind="src" path="node_modules/@jest/core/build/cli"/>
+	<classpathentry kind="src" path="node_modules/@jest/core/build/lib"/>
+	<classpathentry kind="src" path="node_modules/@jest/core/build/plugins"/>
+	<classpathentry kind="src" path="node_modules/@jest/environment/build"/>
+	<classpathentry kind="src" path="node_modules/@jest/fake-timers/build"/>
+	<classpathentry kind="src" path="node_modules/@jest/reporters/build"/>
+	<classpathentry kind="src" path="node_modules/@jest/source-map/build"/>
+	<classpathentry kind="src" path="node_modules/@jest/test-result/build"/>
+	<classpathentry kind="src" path="node_modules/@jest/transform/build"/>
+	<classpathentry kind="src" path="node_modules/@jest/types/build"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/abab"/>
+	<classpathentry kind="src" path="node_modules/abab/lib"/>
+	<classpathentry kind="src" path="node_modules/accepts"/>
+	<classpathentry excluding="node_modules/acorn/dist/" kind="src" path="node_modules/acorn-globals"/>
+	<classpathentry kind="src" path="node_modules/acorn-globals/node_modules/acorn/dist"/>
+	<classpathentry kind="src" path="node_modules/acorn-walk/dist"/>
+	<classpathentry kind="src" path="node_modules/acorn/bin"/>
+	<classpathentry kind="src" path="node_modules/acorn/dist"/>
+	<classpathentry excluding="dist/|scripts/|lib/|lib/compile/|lib/dotjs/" kind="src" path="node_modules/ajv"/>
+	<classpathentry kind="src" path="node_modules/ajv/dist"/>
+	<classpathentry excluding="compile/|dotjs/" kind="src" path="node_modules/ajv/lib"/>
+	<classpathentry kind="src" path="node_modules/ajv/lib/compile"/>
+	<classpathentry kind="src" path="node_modules/ajv/lib/dotjs"/>
+	<classpathentry kind="src" path="node_modules/ajv/scripts"/>
+	<classpathentry kind="src" path="node_modules/ansi-escapes"/>
+	<classpathentry kind="src" path="node_modules/ansi-regex"/>
+	<classpathentry kind="src" path="node_modules/ansi-styles"/>
+	<classpathentry kind="src" path="node_modules/anymatch"/>
+	<classpathentry kind="src" path="node_modules/append-transform"/>
+	<classpathentry excluding="lib/action/|lib/|lib/argument/|lib/action/store/|lib/action/append/|lib/help/" kind="src" path="node_modules/argparse"/>
+	<classpathentry excluding="action/|argument/|action/store/|action/append/|help/" kind="src" path="node_modules/argparse/lib"/>
+	<classpathentry excluding="store/|append/" kind="src" path="node_modules/argparse/lib/action"/>
+	<classpathentry kind="src" path="node_modules/argparse/lib/action/append"/>
+	<classpathentry kind="src" path="node_modules/argparse/lib/action/store"/>
+	<classpathentry kind="src" path="node_modules/argparse/lib/argument"/>
+	<classpathentry kind="src" path="node_modules/argparse/lib/help"/>
+	<classpathentry kind="src" path="node_modules/arr-diff"/>
+	<classpathentry kind="src" path="node_modules/arr-flatten"/>
+	<classpathentry kind="src" path="node_modules/arr-union"/>
+	<classpathentry kind="src" path="node_modules/array-equal"/>
+	<classpathentry kind="src" path="node_modules/array-flatten"/>
+	<classpathentry kind="src" path="node_modules/array-unique"/>
+	<classpathentry kind="src" path="node_modules/arrify"/>
+	<classpathentry excluding="ber/" kind="src" path="node_modules/asn1/lib"/>
+	<classpathentry kind="src" path="node_modules/asn1/lib/ber"/>
+	<classpathentry kind="src" path="node_modules/assert-plus"/>
+	<classpathentry kind="src" path="node_modules/assign-symbols"/>
+	<classpathentry kind="src" path="node_modules/astral-regex"/>
+	<classpathentry excluding="internal/|dist/" kind="src" path="node_modules/async"/>
+	<classpathentry excluding="coverage/lcov-report/" kind="src" path="node_modules/async-limiter"/>
+	<classpathentry kind="src" path="node_modules/async-limiter/coverage/lcov-report"/>
+	<classpathentry kind="src" path="node_modules/async/dist"/>
+	<classpathentry kind="src" path="node_modules/async/internal"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/asynckit"/>
+	<classpathentry kind="src" path="node_modules/asynckit/lib"/>
+	<classpathentry excluding="bin/" kind="src" path="node_modules/atob"/>
+	<classpathentry kind="src" path="node_modules/atob/bin"/>
+	<classpathentry kind="src" path="node_modules/aws-sign2"/>
+	<classpathentry kind="src" path="node_modules/aws4"/>
+	<classpathentry kind="src" path="node_modules/babel-jest/build"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-istanbul/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-jest-hoist/build"/>
+	<classpathentry kind="src" path="node_modules/babel-preset-jest"/>
+	<classpathentry kind="src" path="node_modules/balanced-match"/>
+	<classpathentry excluding="node_modules/define-property/|node_modules/is-descriptor/|node_modules/is-data-descriptor/|node_modules/is-accessor-descriptor/" kind="src" path="node_modules/base"/>
+	<classpathentry kind="src" path="node_modules/base/node_modules/define-property"/>
+	<classpathentry kind="src" path="node_modules/base/node_modules/is-accessor-descriptor"/>
+	<classpathentry kind="src" path="node_modules/base/node_modules/is-data-descriptor"/>
+	<classpathentry kind="src" path="node_modules/base/node_modules/is-descriptor"/>
+	<classpathentry kind="src" path="node_modules/bcrypt-pbkdf"/>
+	<classpathentry excluding="node_modules/iconv-lite/lib/|node_modules/iconv-lite/encodings/|lib/|lib/types/" kind="src" path="node_modules/body-parser"/>
+	<classpathentry excluding="types/" kind="src" path="node_modules/body-parser/lib"/>
+	<classpathentry kind="src" path="node_modules/body-parser/lib/types"/>
+	<classpathentry kind="src" path="node_modules/body-parser/node_modules/iconv-lite/encodings"/>
+	<classpathentry kind="src" path="node_modules/body-parser/node_modules/iconv-lite/lib"/>
+	<classpathentry kind="src" path="node_modules/brace-expansion"/>
+	<classpathentry excluding="lib/|node_modules/extend-shallow/" kind="src" path="node_modules/braces"/>
+	<classpathentry kind="src" path="node_modules/braces/lib"/>
+	<classpathentry kind="src" path="node_modules/braces/node_modules/extend-shallow"/>
+	<classpathentry kind="src" path="node_modules/browser-process-hrtime"/>
+	<classpathentry excluding="node_modules/resolve/example/|node_modules/resolve/|node_modules/resolve/test/resolver/punycode/node_modules/punycode/|node_modules/resolve/test/resolver/|node_modules/resolve/test/resolver/bar/node_modules/foo/|node_modules/resolve/test/resolver/incorrect_main/|node_modules/resolve/lib/|node_modules/resolve/test/precedence/|node_modules/resolve/test/resolver/other_path/lib/|node_modules/resolve/test/precedence/bbb/|node_modules/resolve/test/pathfilter/deep_ref/|node_modules/resolve/test/resolver/biz/node_modules/garply/lib/|node_modules/resolve/test/resolver/biz/node_modules/grux/|node_modules/resolve/test/resolver/without_basedir/node_modules/|node_modules/resolve/test/resolver/other_path/|node_modules/resolve/test/precedence/aaa/|node_modules/resolve/test/node_path/x/ccc/|node_modules/resolve/test/|node_modules/resolve/test/dotdot/abc/|node_modules/resolve/test/node_path/y/ccc/|node_modules/resolve/test/node_path/x/aaa/|node_modules/resolve/test/module_dir/zmodules/bbb/|node_modules/resolve/test/module_dir/ymodules/aaa/|node_modules/resolve/test/dotdot/|node_modules/resolve/test/resolver/quux/foo/|node_modules/resolve/test/resolver/without_basedir/|node_modules/resolve/test/resolver/baz/|node_modules/resolve/test/pathfilter/deep_ref/node_modules/deep/deeper/|node_modules/resolve/test/resolver/biz/node_modules/tiv/|node_modules/resolve/test/node_path/y/bbb/|node_modules/resolve/test/module_dir/xmodules/aaa/|node_modules/resolve/test/pathfilter/deep_ref/node_modules/deep/" kind="src" path="node_modules/browser-resolve"/>
+	<classpathentry excluding="example/|test/resolver/punycode/node_modules/punycode/|test/resolver/|test/resolver/bar/node_modules/foo/|test/resolver/incorrect_main/|lib/|test/precedence/|test/resolver/other_path/lib/|test/precedence/bbb/|test/pathfilter/deep_ref/|test/resolver/biz/node_modules/garply/lib/|test/resolver/biz/node_modules/grux/|test/resolver/without_basedir/node_modules/|test/resolver/other_path/|test/precedence/aaa/|test/node_path/x/ccc/|test/|test/dotdot/abc/|test/node_path/y/ccc/|test/node_path/x/aaa/|test/module_dir/zmodules/bbb/|test/module_dir/ymodules/aaa/|test/dotdot/|test/resolver/quux/foo/|test/resolver/without_basedir/|test/resolver/baz/|test/pathfilter/deep_ref/node_modules/deep/deeper/|test/resolver/biz/node_modules/tiv/|test/node_path/y/bbb/|test/module_dir/xmodules/aaa/|test/pathfilter/deep_ref/node_modules/deep/" kind="src" path="node_modules/browser-resolve/node_modules/resolve"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/example"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/lib"/>
+	<classpathentry excluding="resolver/punycode/node_modules/punycode/|resolver/|resolver/bar/node_modules/foo/|resolver/incorrect_main/|precedence/|resolver/other_path/lib/|precedence/bbb/|pathfilter/deep_ref/|resolver/biz/node_modules/garply/lib/|resolver/biz/node_modules/grux/|resolver/without_basedir/node_modules/|resolver/other_path/|precedence/aaa/|node_path/x/ccc/|dotdot/abc/|node_path/y/ccc/|node_path/x/aaa/|module_dir/zmodules/bbb/|module_dir/ymodules/aaa/|dotdot/|resolver/quux/foo/|resolver/without_basedir/|resolver/baz/|pathfilter/deep_ref/node_modules/deep/deeper/|resolver/biz/node_modules/tiv/|node_path/y/bbb/|module_dir/xmodules/aaa/|pathfilter/deep_ref/node_modules/deep/" kind="src" path="node_modules/browser-resolve/node_modules/resolve/test"/>
+	<classpathentry excluding="abc/" kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/dotdot"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/dotdot/abc"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/module_dir/xmodules/aaa"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/module_dir/ymodules/aaa"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/module_dir/zmodules/bbb"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/node_path/x/aaa"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/node_path/x/ccc"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/node_path/y/bbb"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/node_path/y/ccc"/>
+	<classpathentry excluding="node_modules/deep/deeper/|node_modules/deep/" kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/pathfilter/deep_ref"/>
+	<classpathentry excluding="deeper/" kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/pathfilter/deep_ref/node_modules/deep"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/pathfilter/deep_ref/node_modules/deep/deeper"/>
+	<classpathentry excluding="bbb/|aaa/" kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/precedence"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/precedence/aaa"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/precedence/bbb"/>
+	<classpathentry excluding="punycode/node_modules/punycode/|bar/node_modules/foo/|incorrect_main/|other_path/lib/|biz/node_modules/garply/lib/|biz/node_modules/grux/|without_basedir/node_modules/|other_path/|quux/foo/|without_basedir/|baz/|biz/node_modules/tiv/" kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/bar/node_modules/foo"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/baz"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/biz/node_modules/garply/lib"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/biz/node_modules/grux"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/biz/node_modules/tiv"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/incorrect_main"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/other_path"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/other_path/lib"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/punycode/node_modules/punycode"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/quux/foo"/>
+	<classpathentry excluding="node_modules/" kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/without_basedir"/>
+	<classpathentry kind="src" path="node_modules/browser-resolve/node_modules/resolve/test/resolver/without_basedir/node_modules"/>
+	<classpathentry kind="src" path="node_modules/bser"/>
+	<classpathentry kind="src" path="node_modules/buffer-equal-constant-time"/>
+	<classpathentry kind="src" path="node_modules/buffer-from"/>
+	<classpathentry kind="src" path="node_modules/bytes"/>
+	<classpathentry kind="src" path="node_modules/cache-base"/>
+	<classpathentry kind="src" path="node_modules/callsites"/>
+	<classpathentry kind="src" path="node_modules/camelcase"/>
+	<classpathentry kind="src" path="node_modules/capture-exit"/>
+	<classpathentry kind="src" path="node_modules/caseless"/>
+	<classpathentry kind="src" path="node_modules/chalk"/>
+	<classpathentry kind="src" path="node_modules/ci-info"/>
+	<classpathentry excluding="node_modules/define-property/" kind="src" path="node_modules/class-utils"/>
+	<classpathentry kind="src" path="node_modules/class-utils/node_modules/define-property"/>
+	<classpathentry excluding="node_modules/strip-ansi/|node_modules/ansi-regex/" kind="src" path="node_modules/cliui"/>
+	<classpathentry kind="src" path="node_modules/cliui/node_modules/ansi-regex"/>
+	<classpathentry kind="src" path="node_modules/cliui/node_modules/strip-ansi"/>
+	<classpathentry kind="src" path="node_modules/co"/>
+	<classpathentry kind="src" path="node_modules/code-point-at"/>
+	<classpathentry kind="src" path="node_modules/collection-visit"/>
+	<classpathentry kind="src" path="node_modules/color-convert"/>
+	<classpathentry kind="src" path="node_modules/color-name"/>
+	<classpathentry kind="src" path="node_modules/combined-stream/lib"/>
+	<classpathentry kind="src" path="node_modules/commander"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/compare-versions"/>
+	<classpathentry kind="src" path="node_modules/compare-versions/test"/>
+	<classpathentry kind="src" path="node_modules/component-emitter"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/concat-map"/>
+	<classpathentry kind="src" path="node_modules/concat-map/example"/>
+	<classpathentry kind="src" path="node_modules/concat-map/test"/>
+	<classpathentry kind="src" path="node_modules/content-disposition"/>
+	<classpathentry kind="src" path="node_modules/content-type"/>
+	<classpathentry kind="src" path="node_modules/convert-source-map"/>
+	<classpathentry kind="src" path="node_modules/cookie"/>
+	<classpathentry kind="src" path="node_modules/cookie-signature"/>
+	<classpathentry kind="src" path="node_modules/copy-descriptor"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/core-util-is"/>
+	<classpathentry kind="src" path="node_modules/core-util-is/lib"/>
+	<classpathentry excluding="lib/|lib/util/" kind="src" path="node_modules/cross-spawn"/>
+	<classpathentry excluding="util/" kind="src" path="node_modules/cross-spawn/lib"/>
+	<classpathentry kind="src" path="node_modules/cross-spawn/lib/util"/>
+	<classpathentry kind="src" path="node_modules/cssom/lib"/>
+	<classpathentry excluding="scripts/|lib/utils/|lib/properties/|tests/|lib/" kind="src" path="node_modules/cssstyle"/>
+	<classpathentry excluding="utils/|properties/" kind="src" path="node_modules/cssstyle/lib"/>
+	<classpathentry kind="src" path="node_modules/cssstyle/lib/properties"/>
+	<classpathentry kind="src" path="node_modules/cssstyle/lib/utils"/>
+	<classpathentry kind="src" path="node_modules/cssstyle/scripts"/>
+	<classpathentry kind="src" path="node_modules/cssstyle/tests"/>
+	<classpathentry kind="src" path="node_modules/dashdash/lib"/>
+	<classpathentry kind="src" path="node_modules/data-urls/lib"/>
+	<classpathentry kind="src" path="node_modules/data-urls/node_modules/whatwg-url/lib"/>
+	<classpathentry excluding="src/" kind="src" path="node_modules/debug"/>
+	<classpathentry kind="src" path="node_modules/debug/src"/>
+	<classpathentry kind="src" path="node_modules/decamelize"/>
+	<classpathentry kind="src" path="node_modules/decode-uri-component"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/deep-is"/>
+	<classpathentry kind="src" path="node_modules/deep-is/example"/>
+	<classpathentry kind="src" path="node_modules/deep-is/test"/>
+	<classpathentry kind="src" path="node_modules/default-require-extensions"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/define-properties"/>
+	<classpathentry kind="src" path="node_modules/define-properties/test"/>
+	<classpathentry excluding="node_modules/is-descriptor/|node_modules/is-data-descriptor/|node_modules/is-accessor-descriptor/" kind="src" path="node_modules/define-property"/>
+	<classpathentry kind="src" path="node_modules/define-property/node_modules/is-accessor-descriptor"/>
+	<classpathentry kind="src" path="node_modules/define-property/node_modules/is-data-descriptor"/>
+	<classpathentry kind="src" path="node_modules/define-property/node_modules/is-descriptor"/>
+	<classpathentry kind="src" path="node_modules/delayed-stream/lib"/>
+	<classpathentry excluding="lib/browser/|lib/compat/" kind="src" path="node_modules/depd"/>
+	<classpathentry kind="src" path="node_modules/depd/lib/browser"/>
+	<classpathentry kind="src" path="node_modules/depd/lib/compat"/>
+	<classpathentry kind="src" path="node_modules/destroy"/>
+	<classpathentry kind="src" path="node_modules/detect-newline"/>
+	<classpathentry kind="src" path="node_modules/diff-sequences/build"/>
+	<classpathentry kind="src" path="node_modules/diff-sequences/perf"/>
+	<classpathentry kind="src" path="node_modules/domexception/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/ecc-jsbn"/>
+	<classpathentry kind="src" path="node_modules/ecc-jsbn/lib"/>
+	<classpathentry kind="src" path="node_modules/ecdsa-sig-formatter/src"/>
+	<classpathentry kind="src" path="node_modules/ee-first"/>
+	<classpathentry kind="src" path="node_modules/encodeurl"/>
+	<classpathentry kind="src" path="node_modules/end-of-stream"/>
+	<classpathentry kind="src" path="node_modules/error-ex"/>
+	<classpathentry excluding="operations/|test/helpers/|test/|helpers/" kind="src" path="node_modules/es-abstract"/>
+	<classpathentry kind="src" path="node_modules/es-abstract/helpers"/>
+	<classpathentry kind="src" path="node_modules/es-abstract/operations"/>
+	<classpathentry excluding="helpers/" kind="src" path="node_modules/es-abstract/test"/>
+	<classpathentry kind="src" path="node_modules/es-abstract/test/helpers"/>
+	<classpathentry excluding="helpers/|test/" kind="src" path="node_modules/es-to-primitive"/>
+	<classpathentry kind="src" path="node_modules/es-to-primitive/helpers"/>
+	<classpathentry kind="src" path="node_modules/es-to-primitive/test"/>
+	<classpathentry kind="src" path="node_modules/escape-html"/>
+	<classpathentry kind="src" path="node_modules/escape-string-regexp"/>
+	<classpathentry excluding="node_modules/esprima/dist/|bin/|node_modules/esprima/bin/" kind="src" path="node_modules/escodegen"/>
+	<classpathentry kind="src" path="node_modules/escodegen/bin"/>
+	<classpathentry kind="src" path="node_modules/escodegen/node_modules/esprima/bin"/>
+	<classpathentry kind="src" path="node_modules/escodegen/node_modules/esprima/dist"/>
+	<classpathentry kind="src" path="node_modules/esprima/bin"/>
+	<classpathentry kind="src" path="node_modules/esprima/dist"/>
+	<classpathentry kind="src" path="node_modules/estraverse"/>
+	<classpathentry kind="src" path="node_modules/esutils/lib"/>
+	<classpathentry kind="src" path="node_modules/etag"/>
+	<classpathentry kind="src" path="node_modules/exec-sh/example"/>
+	<classpathentry kind="src" path="node_modules/exec-sh/lib"/>
+	<classpathentry kind="src" path="node_modules/exec-sh/test"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/execa"/>
+	<classpathentry kind="src" path="node_modules/execa/lib"/>
+	<classpathentry excluding="test/|test/fixtures/|lib/" kind="src" path="node_modules/exit"/>
+	<classpathentry kind="src" path="node_modules/exit/lib"/>
+	<classpathentry excluding="fixtures/" kind="src" path="node_modules/exit/test"/>
+	<classpathentry kind="src" path="node_modules/exit/test/fixtures"/>
+	<classpathentry excluding="node_modules/extend-shallow/|lib/|node_modules/define-property/" kind="src" path="node_modules/expand-brackets"/>
+	<classpathentry kind="src" path="node_modules/expand-brackets/lib"/>
+	<classpathentry kind="src" path="node_modules/expand-brackets/node_modules/define-property"/>
+	<classpathentry kind="src" path="node_modules/expand-brackets/node_modules/extend-shallow"/>
+	<classpathentry kind="src" path="node_modules/expect/build"/>
+	<classpathentry kind="src" path="node_modules/expect/build-es5"/>
+	<classpathentry excluding="lib/router/|lib/|lib/middleware/" kind="src" path="node_modules/express"/>
+	<classpathentry excluding="router/|middleware/" kind="src" path="node_modules/express/lib"/>
+	<classpathentry kind="src" path="node_modules/express/lib/middleware"/>
+	<classpathentry kind="src" path="node_modules/express/lib/router"/>
+	<classpathentry kind="src" path="node_modules/extend"/>
+	<classpathentry excluding="node_modules/is-extendable/" kind="src" path="node_modules/extend-shallow"/>
+	<classpathentry kind="src" path="node_modules/extend-shallow/node_modules/is-extendable"/>
+	<classpathentry excluding="node_modules/extend-shallow/|node_modules/is-data-descriptor/|node_modules/is-descriptor/|lib/|node_modules/define-property/|node_modules/is-accessor-descriptor/" kind="src" path="node_modules/extglob"/>
+	<classpathentry kind="src" path="node_modules/extglob/lib"/>
+	<classpathentry kind="src" path="node_modules/extglob/node_modules/define-property"/>
+	<classpathentry kind="src" path="node_modules/extglob/node_modules/extend-shallow"/>
+	<classpathentry kind="src" path="node_modules/extglob/node_modules/is-accessor-descriptor"/>
+	<classpathentry kind="src" path="node_modules/extglob/node_modules/is-data-descriptor"/>
+	<classpathentry kind="src" path="node_modules/extglob/node_modules/is-descriptor"/>
+	<classpathentry kind="src" path="node_modules/extsprintf/lib"/>
+	<classpathentry kind="src" path="node_modules/fast-deep-equal"/>
+	<classpathentry excluding="test/|example/|benchmark/" kind="src" path="node_modules/fast-json-stable-stringify"/>
+	<classpathentry kind="src" path="node_modules/fast-json-stable-stringify/benchmark"/>
+	<classpathentry kind="src" path="node_modules/fast-json-stable-stringify/example"/>
+	<classpathentry kind="src" path="node_modules/fast-json-stable-stringify/test"/>
+	<classpathentry kind="src" path="node_modules/fast-levenshtein"/>
+	<classpathentry kind="src" path="node_modules/fb-watchman"/>
+	<classpathentry kind="src" path="node_modules/fileset/lib"/>
+	<classpathentry excluding="fixtures/" kind="src" path="node_modules/fileset/test"/>
+	<classpathentry kind="src" path="node_modules/fileset/test/fixtures"/>
+	<classpathentry excluding="node_modules/extend-shallow/" kind="src" path="node_modules/fill-range"/>
+	<classpathentry kind="src" path="node_modules/fill-range/node_modules/extend-shallow"/>
+	<classpathentry kind="src" path="node_modules/finalhandler"/>
+	<classpathentry kind="src" path="node_modules/find-up"/>
+	<classpathentry kind="src" path="node_modules/for-in"/>
+	<classpathentry kind="src" path="node_modules/forever-agent"/>
+	<classpathentry kind="src" path="node_modules/form-data/lib"/>
+	<classpathentry kind="src" path="node_modules/forwarded"/>
+	<classpathentry kind="src" path="node_modules/fragment-cache"/>
+	<classpathentry kind="src" path="node_modules/fresh"/>
+	<classpathentry kind="src" path="node_modules/fs.realpath"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/function-bind"/>
+	<classpathentry kind="src" path="node_modules/function-bind/test"/>
+	<classpathentry kind="src" path="node_modules/get-caller-file"/>
+	<classpathentry kind="src" path="node_modules/get-stream"/>
+	<classpathentry kind="src" path="node_modules/get-value"/>
+	<classpathentry kind="src" path="node_modules/getpass/lib"/>
+	<classpathentry kind="src" path="node_modules/glob"/>
+	<classpathentry kind="src" path="node_modules/globals"/>
+	<classpathentry kind="src" path="node_modules/graceful-fs"/>
+	<classpathentry kind="src" path="node_modules/growly/example"/>
+	<classpathentry kind="src" path="node_modules/growly/lib"/>
+	<classpathentry excluding="dist/cjs/handlebars/compiler/|dist/cjs/handlebars/|lib/handlebars/decorators/|dist/|dist/amd/handlebars/|dist/amd/handlebars/decorators/|lib/|dist/amd/|dist/amd/handlebars/helpers/|dist/cjs/|dist/cjs/handlebars/helpers/|lib/handlebars/compiler/|dist/amd/handlebars/compiler/|lib/handlebars/helpers/|dist/cjs/handlebars/decorators/|lib/handlebars/" kind="src" path="node_modules/handlebars"/>
+	<classpathentry excluding="cjs/handlebars/compiler/|cjs/handlebars/|amd/handlebars/|amd/handlebars/decorators/|amd/|amd/handlebars/helpers/|cjs/|cjs/handlebars/helpers/|amd/handlebars/compiler/|cjs/handlebars/decorators/" kind="src" path="node_modules/handlebars/dist"/>
+	<classpathentry excluding="handlebars/|handlebars/decorators/|handlebars/helpers/|handlebars/compiler/" kind="src" path="node_modules/handlebars/dist/amd"/>
+	<classpathentry excluding="decorators/|helpers/|compiler/" kind="src" path="node_modules/handlebars/dist/amd/handlebars"/>
+	<classpathentry kind="src" path="node_modules/handlebars/dist/amd/handlebars/compiler"/>
+	<classpathentry kind="src" path="node_modules/handlebars/dist/amd/handlebars/decorators"/>
+	<classpathentry kind="src" path="node_modules/handlebars/dist/amd/handlebars/helpers"/>
+	<classpathentry excluding="handlebars/compiler/|handlebars/|handlebars/helpers/|handlebars/decorators/" kind="src" path="node_modules/handlebars/dist/cjs"/>
+	<classpathentry excluding="compiler/|helpers/|decorators/" kind="src" path="node_modules/handlebars/dist/cjs/handlebars"/>
+	<classpathentry kind="src" path="node_modules/handlebars/dist/cjs/handlebars/compiler"/>
+	<classpathentry kind="src" path="node_modules/handlebars/dist/cjs/handlebars/decorators"/>
+	<classpathentry kind="src" path="node_modules/handlebars/dist/cjs/handlebars/helpers"/>
+	<classpathentry excluding="handlebars/decorators/|handlebars/compiler/|handlebars/helpers/|handlebars/" kind="src" path="node_modules/handlebars/lib"/>
+	<classpathentry excluding="decorators/|compiler/|helpers/" kind="src" path="node_modules/handlebars/lib/handlebars"/>
+	<classpathentry kind="src" path="node_modules/handlebars/lib/handlebars/compiler"/>
+	<classpathentry kind="src" path="node_modules/handlebars/lib/handlebars/decorators"/>
+	<classpathentry kind="src" path="node_modules/handlebars/lib/handlebars/helpers"/>
+	<classpathentry kind="src" path="node_modules/har-schema/lib"/>
+	<classpathentry kind="src" path="node_modules/har-validator/lib"/>
+	<classpathentry kind="src" path="node_modules/has-flag"/>
+	<classpathentry excluding="test/|test/shams/" kind="src" path="node_modules/has-symbols"/>
+	<classpathentry excluding="shams/" kind="src" path="node_modules/has-symbols/test"/>
+	<classpathentry kind="src" path="node_modules/has-symbols/test/shams"/>
+	<classpathentry kind="src" path="node_modules/has-value"/>
+	<classpathentry excluding="node_modules/kind-of/" kind="src" path="node_modules/has-values"/>
+	<classpathentry kind="src" path="node_modules/has-values/node_modules/kind-of"/>
+	<classpathentry kind="src" path="node_modules/has/src"/>
+	<classpathentry kind="src" path="node_modules/has/test"/>
+	<classpathentry kind="src" path="node_modules/hosted-git-info"/>
+	<classpathentry kind="src" path="node_modules/html-encoding-sniffer/lib"/>
+	<classpathentry kind="src" path="node_modules/http-errors"/>
+	<classpathentry kind="src" path="node_modules/http-signature/lib"/>
+	<classpathentry kind="src" path="node_modules/iconv-lite/encodings"/>
+	<classpathentry kind="src" path="node_modules/iconv-lite/lib"/>
+	<classpathentry excluding="fixtures/" kind="src" path="node_modules/import-local"/>
+	<classpathentry kind="src" path="node_modules/import-local/fixtures"/>
+	<classpathentry kind="src" path="node_modules/imurmurhash"/>
+	<classpathentry kind="src" path="node_modules/inflight"/>
+	<classpathentry kind="src" path="node_modules/inherits"/>
+	<classpathentry kind="src" path="node_modules/invariant"/>
+	<classpathentry kind="src" path="node_modules/invert-kv"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/ipaddr.js"/>
+	<classpathentry kind="src" path="node_modules/ipaddr.js/lib"/>
+	<classpathentry excluding="node_modules/kind-of/" kind="src" path="node_modules/is-accessor-descriptor"/>
+	<classpathentry kind="src" path="node_modules/is-accessor-descriptor/node_modules/kind-of"/>
+	<classpathentry kind="src" path="node_modules/is-arrayish"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/is-buffer"/>
+	<classpathentry kind="src" path="node_modules/is-buffer/test"/>
+	<classpathentry kind="src" path="node_modules/is-callable"/>
+	<classpathentry kind="src" path="node_modules/is-ci"/>
+	<classpathentry excluding="node_modules/kind-of/" kind="src" path="node_modules/is-data-descriptor"/>
+	<classpathentry kind="src" path="node_modules/is-data-descriptor/node_modules/kind-of"/>
+	<classpathentry kind="src" path="node_modules/is-date-object"/>
+	<classpathentry excluding="node_modules/kind-of/" kind="src" path="node_modules/is-descriptor"/>
+	<classpathentry kind="src" path="node_modules/is-descriptor/node_modules/kind-of"/>
+	<classpathentry kind="src" path="node_modules/is-extendable"/>
+	<classpathentry kind="src" path="node_modules/is-fullwidth-code-point"/>
+	<classpathentry kind="src" path="node_modules/is-generator-fn"/>
+	<classpathentry excluding="node_modules/kind-of/" kind="src" path="node_modules/is-number"/>
+	<classpathentry kind="src" path="node_modules/is-number/node_modules/kind-of"/>
+	<classpathentry kind="src" path="node_modules/is-plain-object"/>
+	<classpathentry kind="src" path="node_modules/is-regex"/>
+	<classpathentry kind="src" path="node_modules/is-stream"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/is-symbol"/>
+	<classpathentry kind="src" path="node_modules/is-symbol/test"/>
+	<classpathentry kind="src" path="node_modules/is-typedarray"/>
+	<classpathentry kind="src" path="node_modules/is-windows"/>
+	<classpathentry kind="src" path="node_modules/is-wsl"/>
+	<classpathentry kind="src" path="node_modules/isarray"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/isexe"/>
+	<classpathentry kind="src" path="node_modules/isexe/test"/>
+	<classpathentry kind="src" path="node_modules/isobject"/>
+	<classpathentry kind="src" path="node_modules/isstream"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/istanbul-api"/>
+	<classpathentry kind="src" path="node_modules/istanbul-api/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/istanbul-lib-coverage"/>
+	<classpathentry kind="src" path="node_modules/istanbul-lib-coverage/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/istanbul-lib-hook"/>
+	<classpathentry kind="src" path="node_modules/istanbul-lib-hook/lib"/>
+	<classpathentry kind="src" path="node_modules/istanbul-lib-instrument/dist"/>
+	<classpathentry excluding="node_modules/supports-color/|lib/" kind="src" path="node_modules/istanbul-lib-report"/>
+	<classpathentry kind="src" path="node_modules/istanbul-lib-report/lib"/>
+	<classpathentry kind="src" path="node_modules/istanbul-lib-report/node_modules/supports-color"/>
+	<classpathentry excluding="node_modules/debug/src/|node_modules/ms/|node_modules/debug/dist/|lib/" kind="src" path="node_modules/istanbul-lib-source-maps"/>
+	<classpathentry kind="src" path="node_modules/istanbul-lib-source-maps/lib"/>
+	<classpathentry kind="src" path="node_modules/istanbul-lib-source-maps/node_modules/debug/dist"/>
+	<classpathentry kind="src" path="node_modules/istanbul-lib-source-maps/node_modules/debug/src"/>
+	<classpathentry kind="src" path="node_modules/istanbul-lib-source-maps/node_modules/ms"/>
+	<classpathentry excluding="lib/html/assets/|lib/none/|lib/text-summary/|lib/json/|lib/lcovonly/|lib/teamcity/|lib/text/|lib/text-lcov/|lib/clover/|lib/html/|lib/lcov/|lib/html/assets/vendor/|lib/json-summary/|lib/cobertura/" kind="src" path="node_modules/istanbul-reports"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/clover"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/cobertura"/>
+	<classpathentry excluding="assets/|assets/vendor/" kind="src" path="node_modules/istanbul-reports/lib/html"/>
+	<classpathentry excluding="vendor/" kind="src" path="node_modules/istanbul-reports/lib/html/assets"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/html/assets/vendor"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/json"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/json-summary"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/lcov"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/lcovonly"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/none"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/teamcity"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/text"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/text-lcov"/>
+	<classpathentry kind="src" path="node_modules/istanbul-reports/lib/text-summary"/>
+	<classpathentry kind="src" path="node_modules/jest-changed-files/build"/>
+	<classpathentry excluding="vendor/" kind="src" path="node_modules/jest-config/build"/>
+	<classpathentry kind="src" path="node_modules/jest-config/build/vendor"/>
+	<classpathentry kind="src" path="node_modules/jest-diff/build"/>
+	<classpathentry kind="src" path="node_modules/jest-docblock/build"/>
+	<classpathentry excluding="table/" kind="src" path="node_modules/jest-each/build"/>
+	<classpathentry kind="src" path="node_modules/jest-each/build/table"/>
+	<classpathentry kind="src" path="node_modules/jest-environment-jsdom/build"/>
+	<classpathentry kind="src" path="node_modules/jest-environment-node/build"/>
+	<classpathentry kind="src" path="node_modules/jest-get-type/build"/>
+	<classpathentry excluding="crawlers/|lib/" kind="src" path="node_modules/jest-haste-map/build"/>
+	<classpathentry kind="src" path="node_modules/jest-haste-map/build/crawlers"/>
+	<classpathentry kind="src" path="node_modules/jest-haste-map/build/lib"/>
+	<classpathentry excluding="jasmine/" kind="src" path="node_modules/jest-jasmine2/build"/>
+	<classpathentry kind="src" path="node_modules/jest-jasmine2/build/jasmine"/>
+	<classpathentry kind="src" path="node_modules/jest-leak-detector/build"/>
+	<classpathentry kind="src" path="node_modules/jest-matcher-utils/build"/>
+	<classpathentry kind="src" path="node_modules/jest-message-util/build"/>
+	<classpathentry kind="src" path="node_modules/jest-mock/build"/>
+	<classpathentry kind="src" path="node_modules/jest-mock/build-es5"/>
+	<classpathentry kind="src" path="node_modules/jest-pnp-resolver"/>
+	<classpathentry kind="src" path="node_modules/jest-regex-util/build"/>
+	<classpathentry kind="src" path="node_modules/jest-resolve-dependencies/build"/>
+	<classpathentry kind="src" path="node_modules/jest-resolve/build"/>
+	<classpathentry kind="src" path="node_modules/jest-runner/build"/>
+	<classpathentry kind="src" path="node_modules/jest-runtime/bin"/>
+	<classpathentry excluding="cli/" kind="src" path="node_modules/jest-runtime/build"/>
+	<classpathentry kind="src" path="node_modules/jest-runtime/build/cli"/>
+	<classpathentry kind="src" path="node_modules/jest-serializer/build"/>
+	<classpathentry kind="src" path="node_modules/jest-snapshot/build"/>
+	<classpathentry kind="src" path="node_modules/jest-util/build"/>
+	<classpathentry kind="src" path="node_modules/jest-validate/build"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/jest-watcher/build"/>
+	<classpathentry kind="src" path="node_modules/jest-watcher/build/lib"/>
+	<classpathentry excluding="workers/|base/" kind="src" path="node_modules/jest-worker/build"/>
+	<classpathentry kind="src" path="node_modules/jest-worker/build/base"/>
+	<classpathentry kind="src" path="node_modules/jest-worker/build/workers"/>
+	<classpathentry kind="src" path="node_modules/jest-worker/node_modules/supports-color"/>
+	<classpathentry kind="src" path="node_modules/jest/bin"/>
+	<classpathentry kind="src" path="node_modules/jest/build"/>
+	<classpathentry kind="src" path="node_modules/jest/node_modules/jest-cli/bin"/>
+	<classpathentry excluding="cli/|init/" kind="src" path="node_modules/jest/node_modules/jest-cli/build"/>
+	<classpathentry kind="src" path="node_modules/jest/node_modules/jest-cli/build/cli"/>
+	<classpathentry kind="src" path="node_modules/jest/node_modules/jest-cli/build/init"/>
+	<classpathentry kind="src" path="node_modules/js-tokens"/>
+	<classpathentry excluding="lib/js-yaml/schema/|lib/js-yaml/|lib/|lib/js-yaml/type/js/|lib/js-yaml/type/|dist/|bin/" kind="src" path="node_modules/js-yaml"/>
+	<classpathentry kind="src" path="node_modules/js-yaml/bin"/>
+	<classpathentry kind="src" path="node_modules/js-yaml/dist"/>
+	<classpathentry excluding="js-yaml/schema/|js-yaml/|js-yaml/type/js/|js-yaml/type/" kind="src" path="node_modules/js-yaml/lib"/>
+	<classpathentry excluding="schema/|type/js/|type/" kind="src" path="node_modules/js-yaml/lib/js-yaml"/>
+	<classpathentry kind="src" path="node_modules/js-yaml/lib/js-yaml/schema"/>
+	<classpathentry excluding="js/" kind="src" path="node_modules/js-yaml/lib/js-yaml/type"/>
+	<classpathentry kind="src" path="node_modules/js-yaml/lib/js-yaml/type/js"/>
+	<classpathentry kind="src" path="node_modules/jsbn"/>
+	<classpathentry excluding="jsdom/browser/|jsdom/living/webstorage/|jsdom/living/window/|jsdom/living/helpers/|jsdom/living/domparsing/|jsdom/living/constraint-validation/|jsdom/living/attributes/|jsdom/living/navigator/|jsdom/living/xhr/|jsdom/|jsdom/living/traversal/|jsdom/living/helpers/svg/|jsdom/level3/|jsdom/level2/|jsdom/living/svg/|jsdom/living/hr-time/|jsdom/living/generated/|jsdom/living/websockets/|jsdom/living/nodes/|jsdom/living/aborting/|jsdom/living/events/|jsdom/living/file-api/|jsdom/living/" kind="src" path="node_modules/jsdom/lib"/>
+	<classpathentry excluding="browser/|living/webstorage/|living/window/|living/helpers/|living/domparsing/|living/constraint-validation/|living/attributes/|living/navigator/|living/xhr/|living/traversal/|living/helpers/svg/|level3/|level2/|living/svg/|living/hr-time/|living/generated/|living/websockets/|living/nodes/|living/aborting/|living/events/|living/file-api/|living/" kind="src" path="node_modules/jsdom/lib/jsdom"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/browser"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/level2"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/level3"/>
+	<classpathentry excluding="webstorage/|window/|helpers/|domparsing/|constraint-validation/|attributes/|navigator/|xhr/|traversal/|helpers/svg/|svg/|hr-time/|generated/|websockets/|nodes/|aborting/|events/|file-api/" kind="src" path="node_modules/jsdom/lib/jsdom/living"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/aborting"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/attributes"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/constraint-validation"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/domparsing"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/events"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/file-api"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/generated"/>
+	<classpathentry excluding="svg/" kind="src" path="node_modules/jsdom/lib/jsdom/living/helpers"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/helpers/svg"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/hr-time"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/navigator"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/nodes"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/svg"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/traversal"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/websockets"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/webstorage"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/window"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/xhr"/>
+	<classpathentry kind="src" path="node_modules/jsesc"/>
+	<classpathentry kind="src" path="node_modules/json-parse-better-errors"/>
+	<classpathentry excluding="spec/fixtures/|spec/" kind="src" path="node_modules/json-schema-traverse"/>
+	<classpathentry excluding="fixtures/" kind="src" path="node_modules/json-schema-traverse/spec"/>
+	<classpathentry kind="src" path="node_modules/json-schema-traverse/spec/fixtures"/>
+	<classpathentry kind="src" path="node_modules/json-schema/lib"/>
+	<classpathentry kind="src" path="node_modules/json-schema/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/json-stringify-safe"/>
+	<classpathentry kind="src" path="node_modules/json-stringify-safe/test"/>
+	<classpathentry kind="src" path="node_modules/json5/dist"/>
+	<classpathentry kind="src" path="node_modules/json5/lib"/>
+	<classpathentry excluding="lib/|node_modules/ms/" kind="src" path="node_modules/jsonwebtoken"/>
+	<classpathentry kind="src" path="node_modules/jsonwebtoken/lib"/>
+	<classpathentry kind="src" path="node_modules/jsonwebtoken/node_modules/ms"/>
+	<classpathentry kind="src" path="node_modules/jsprim/lib"/>
+	<classpathentry kind="src" path="node_modules/jwa"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/jws"/>
+	<classpathentry kind="src" path="node_modules/jws/lib"/>
+	<classpathentry kind="src" path="node_modules/kind-of"/>
+	<classpathentry kind="src" path="node_modules/kleur"/>
+	<classpathentry kind="src" path="node_modules/lcid"/>
+	<classpathentry excluding="perf/" kind="src" path="node_modules/left-pad"/>
+	<classpathentry kind="src" path="node_modules/left-pad/perf"/>
+	<classpathentry kind="src" path="node_modules/leven"/>
+	<classpathentry kind="src" path="node_modules/levn/lib"/>
+	<classpathentry kind="src" path="node_modules/load-json-file"/>
+	<classpathentry kind="src" path="node_modules/locate-path"/>
+	<classpathentry excluding="fp/" kind="src" path="node_modules/lodash"/>
+	<classpathentry kind="src" path="node_modules/lodash.includes"/>
+	<classpathentry kind="src" path="node_modules/lodash.isboolean"/>
+	<classpathentry kind="src" path="node_modules/lodash.isinteger"/>
+	<classpathentry kind="src" path="node_modules/lodash.isnumber"/>
+	<classpathentry kind="src" path="node_modules/lodash.isplainobject"/>
+	<classpathentry kind="src" path="node_modules/lodash.isstring"/>
+	<classpathentry kind="src" path="node_modules/lodash.once"/>
+	<classpathentry kind="src" path="node_modules/lodash.sortby"/>
+	<classpathentry kind="src" path="node_modules/lodash/fp"/>
+	<classpathentry kind="src" path="node_modules/loose-envify"/>
+	<classpathentry kind="src" path="node_modules/make-dir"/>
+	<classpathentry kind="src" path="node_modules/makeerror/lib"/>
+	<classpathentry kind="src" path="node_modules/map-age-cleaner/dist"/>
+	<classpathentry kind="src" path="node_modules/map-cache"/>
+	<classpathentry kind="src" path="node_modules/map-visit"/>
+	<classpathentry kind="src" path="node_modules/media-typer"/>
+	<classpathentry kind="src" path="node_modules/mem"/>
+	<classpathentry kind="src" path="node_modules/merge-descriptors"/>
+	<classpathentry kind="src" path="node_modules/merge-stream"/>
+	<classpathentry kind="src" path="node_modules/methods"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/micromatch"/>
+	<classpathentry kind="src" path="node_modules/micromatch/lib"/>
+	<classpathentry excluding="build/" kind="src" path="node_modules/mime"/>
+	<classpathentry kind="src" path="node_modules/mime-db"/>
+	<classpathentry kind="src" path="node_modules/mime-types"/>
+	<classpathentry kind="src" path="node_modules/mime/build"/>
+	<classpathentry kind="src" path="node_modules/mimic-fn"/>
+	<classpathentry kind="src" path="node_modules/minimatch"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/minimist"/>
+	<classpathentry kind="src" path="node_modules/minimist/example"/>
+	<classpathentry kind="src" path="node_modules/minimist/test"/>
+	<classpathentry excluding="node_modules/is-extendable/" kind="src" path="node_modules/mixin-deep"/>
+	<classpathentry kind="src" path="node_modules/mixin-deep/node_modules/is-extendable"/>
+	<classpathentry excluding="node_modules/minimist/|bin/|node_modules/minimist/test/|examples/|node_modules/minimist/example/|test/" kind="src" path="node_modules/mkdirp"/>
+	<classpathentry kind="src" path="node_modules/mkdirp/bin"/>
+	<classpathentry kind="src" path="node_modules/mkdirp/examples"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/mkdirp/node_modules/minimist"/>
+	<classpathentry kind="src" path="node_modules/mkdirp/node_modules/minimist/example"/>
+	<classpathentry kind="src" path="node_modules/mkdirp/node_modules/minimist/test"/>
+	<classpathentry kind="src" path="node_modules/mkdirp/test"/>
+	<classpathentry kind="src" path="node_modules/ms"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/nanomatch"/>
+	<classpathentry kind="src" path="node_modules/nanomatch/lib"/>
+	<classpathentry kind="src" path="node_modules/natural-compare"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/negotiator"/>
+	<classpathentry kind="src" path="node_modules/negotiator/lib"/>
+	<classpathentry kind="src" path="node_modules/neo-async"/>
+	<classpathentry kind="src" path="node_modules/nice-try/src"/>
+	<classpathentry kind="src" path="node_modules/node-int64"/>
+	<classpathentry kind="src" path="node_modules/node-modules-regexp"/>
+	<classpathentry excluding="lib/|notifiers/" kind="src" path="node_modules/node-notifier"/>
+	<classpathentry kind="src" path="node_modules/node-notifier/lib"/>
+	<classpathentry kind="src" path="node_modules/node-notifier/notifiers"/>
+	<classpathentry kind="src" path="node_modules/normalize-package-data/lib"/>
+	<classpathentry kind="src" path="node_modules/normalize-path"/>
+	<classpathentry kind="src" path="node_modules/npm-run-path"/>
+	<classpathentry kind="src" path="node_modules/number-is-nan"/>
+	<classpathentry excluding="modules/" kind="src" path="node_modules/nwsapi/src"/>
+	<classpathentry kind="src" path="node_modules/nwsapi/src/modules"/>
+	<classpathentry kind="src" path="node_modules/oauth-sign"/>
+	<classpathentry excluding="node_modules/define-property/|node_modules/kind-of/" kind="src" path="node_modules/object-copy"/>
+	<classpathentry kind="src" path="node_modules/object-copy/node_modules/define-property"/>
+	<classpathentry kind="src" path="node_modules/object-copy/node_modules/kind-of"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/object-keys"/>
+	<classpathentry kind="src" path="node_modules/object-keys/test"/>
+	<classpathentry kind="src" path="node_modules/object-visit"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/object.getownpropertydescriptors"/>
+	<classpathentry kind="src" path="node_modules/object.getownpropertydescriptors/test"/>
+	<classpathentry kind="src" path="node_modules/object.pick"/>
+	<classpathentry kind="src" path="node_modules/on-finished"/>
+	<classpathentry kind="src" path="node_modules/once"/>
+	<classpathentry excluding="node_modules/minimist/test/|test/_/|example/|node_modules/minimist/example/|test/|node_modules/minimist/" kind="src" path="node_modules/optimist"/>
+	<classpathentry kind="src" path="node_modules/optimist/example"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/optimist/node_modules/minimist"/>
+	<classpathentry kind="src" path="node_modules/optimist/node_modules/minimist/example"/>
+	<classpathentry kind="src" path="node_modules/optimist/node_modules/minimist/test"/>
+	<classpathentry excluding="_/" kind="src" path="node_modules/optimist/test"/>
+	<classpathentry kind="src" path="node_modules/optimist/test/_"/>
+	<classpathentry kind="src" path="node_modules/optionator/lib"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/optionator/node_modules/wordwrap"/>
+	<classpathentry kind="src" path="node_modules/optionator/node_modules/wordwrap/example"/>
+	<classpathentry kind="src" path="node_modules/optionator/node_modules/wordwrap/test"/>
+	<classpathentry kind="src" path="node_modules/os-locale"/>
+	<classpathentry kind="src" path="node_modules/p-defer"/>
+	<classpathentry kind="src" path="node_modules/p-each-series"/>
+	<classpathentry kind="src" path="node_modules/p-finally"/>
+	<classpathentry kind="src" path="node_modules/p-is-promise"/>
+	<classpathentry kind="src" path="node_modules/p-limit"/>
+	<classpathentry kind="src" path="node_modules/p-locate"/>
+	<classpathentry kind="src" path="node_modules/p-reduce"/>
+	<classpathentry kind="src" path="node_modules/p-try"/>
+	<classpathentry kind="src" path="node_modules/parse-json"/>
+	<classpathentry excluding="parser/|extensions/location_info/|tokenizer/|tree_adapters/|utils/|serializer/|sax/|common/|extensions/position_tracking/" kind="src" path="node_modules/parse5/lib"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/common"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/extensions/location_info"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/extensions/position_tracking"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/parser"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/sax"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/serializer"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/tokenizer"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/tree_adapters"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/utils"/>
+	<classpathentry kind="src" path="node_modules/parseurl"/>
+	<classpathentry kind="src" path="node_modules/pascalcase"/>
+	<classpathentry kind="src" path="node_modules/path-exists"/>
+	<classpathentry kind="src" path="node_modules/path-is-absolute"/>
+	<classpathentry kind="src" path="node_modules/path-key"/>
+	<classpathentry kind="src" path="node_modules/path-parse"/>
+	<classpathentry kind="src" path="node_modules/path-to-regexp"/>
+	<classpathentry kind="src" path="node_modules/path-type"/>
+	<classpathentry kind="src" path="node_modules/performance-now/lib"/>
+	<classpathentry kind="src" path="node_modules/pify"/>
+	<classpathentry kind="src" path="node_modules/pirates/lib"/>
+	<classpathentry kind="src" path="node_modules/pkg-dir"/>
+	<classpathentry excluding="scripts/|test/" kind="src" path="node_modules/pn"/>
+	<classpathentry kind="src" path="node_modules/pn/scripts"/>
+	<classpathentry kind="src" path="node_modules/pn/test"/>
+	<classpathentry kind="src" path="node_modules/posix-character-classes"/>
+	<classpathentry kind="src" path="node_modules/prelude-ls/lib"/>
+	<classpathentry excluding="plugins/lib/|plugins/" kind="src" path="node_modules/pretty-format/build"/>
+	<classpathentry kind="src" path="node_modules/pretty-format/build-es5"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/pretty-format/build/plugins"/>
+	<classpathentry kind="src" path="node_modules/pretty-format/build/plugins/lib"/>
+	<classpathentry kind="src" path="node_modules/pretty-format/perf"/>
+	<classpathentry kind="src" path="node_modules/process-nextick-args"/>
+	<classpathentry excluding="dist/|lib/util/|dist/dateparts/|dist/util/|dist/elements/|lib/dateparts/|lib/elements/|lib/" kind="src" path="node_modules/prompts"/>
+	<classpathentry excluding="dateparts/|util/|elements/" kind="src" path="node_modules/prompts/dist"/>
+	<classpathentry kind="src" path="node_modules/prompts/dist/dateparts"/>
+	<classpathentry kind="src" path="node_modules/prompts/dist/elements"/>
+	<classpathentry kind="src" path="node_modules/prompts/dist/util"/>
+	<classpathentry excluding="util/|dateparts/|elements/" kind="src" path="node_modules/prompts/lib"/>
+	<classpathentry kind="src" path="node_modules/prompts/lib/dateparts"/>
+	<classpathentry kind="src" path="node_modules/prompts/lib/elements"/>
+	<classpathentry kind="src" path="node_modules/prompts/lib/util"/>
+	<classpathentry kind="src" path="node_modules/proxy-addr"/>
+	<classpathentry excluding="dist/" kind="src" path="node_modules/psl"/>
+	<classpathentry kind="src" path="node_modules/psl/dist"/>
+	<classpathentry kind="src" path="node_modules/pump"/>
+	<classpathentry kind="src" path="node_modules/punycode"/>
+	<classpathentry kind="src" path="node_modules/qs/dist"/>
+	<classpathentry kind="src" path="node_modules/qs/lib"/>
+	<classpathentry kind="src" path="node_modules/qs/test"/>
+	<classpathentry kind="src" path="node_modules/range-parser"/>
+	<classpathentry excluding="node_modules/iconv-lite/lib/|node_modules/iconv-lite/encodings/" kind="src" path="node_modules/raw-body"/>
+	<classpathentry kind="src" path="node_modules/raw-body/node_modules/iconv-lite/encodings"/>
+	<classpathentry kind="src" path="node_modules/raw-body/node_modules/iconv-lite/lib"/>
+	<classpathentry excluding="umd/|cjs/" kind="src" path="node_modules/react-is"/>
+	<classpathentry kind="src" path="node_modules/react-is/cjs"/>
+	<classpathentry kind="src" path="node_modules/react-is/umd"/>
+	<classpathentry kind="src" path="node_modules/read-pkg"/>
+	<classpathentry kind="src" path="node_modules/read-pkg-up"/>
+	<classpathentry excluding="lib/|lib/internal/streams/" kind="src" path="node_modules/readable-stream"/>
+	<classpathentry excluding="internal/streams/" kind="src" path="node_modules/readable-stream/lib"/>
+	<classpathentry kind="src" path="node_modules/readable-stream/lib/internal/streams"/>
+	<classpathentry kind="src" path="node_modules/realpath-native"/>
+	<classpathentry kind="src" path="node_modules/regex-not"/>
+	<classpathentry kind="src" path="node_modules/remove-trailing-separator"/>
+	<classpathentry kind="src" path="node_modules/repeat-element"/>
+	<classpathentry kind="src" path="node_modules/repeat-string"/>
+	<classpathentry excluding="node_modules/tough-cookie/lib/|node_modules/punycode/|lib/" kind="src" path="node_modules/request"/>
+	<classpathentry excluding="lib/|configure/" kind="src" path="node_modules/request-promise-core"/>
+	<classpathentry kind="src" path="node_modules/request-promise-core/configure"/>
+	<classpathentry kind="src" path="node_modules/request-promise-core/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/request-promise-native"/>
+	<classpathentry kind="src" path="node_modules/request-promise-native/lib"/>
+	<classpathentry kind="src" path="node_modules/request/lib"/>
+	<classpathentry kind="src" path="node_modules/request/node_modules/punycode"/>
+	<classpathentry kind="src" path="node_modules/request/node_modules/tough-cookie/lib"/>
+	<classpathentry kind="src" path="node_modules/require-directory"/>
+	<classpathentry kind="src" path="node_modules/require-main-filename"/>
+	<classpathentry excluding="test/module_dir/zmodules/bbb/|test/resolver/same_names/foo/|test/resolver/other_path/|test/resolver/incorrect_main/|test/resolver/browser_field/|test/dotdot/abc/|test/precedence/aaa/|test/node_path/x/aaa/|lib/|test/pathfilter/deep_ref/|test/precedence/bbb/|test/resolver/symlinked/_/node_modules/|test/precedence/|test/resolver/dot_main/|test/resolver/|test/resolver/quux/foo/|test/node_path/y/bbb/|example/|test/resolver/baz/|test/|test/node_path/y/ccc/|test/resolver/without_basedir/|test/resolver/dot_slash_main/|test/resolver/same_names/|test/node_path/x/ccc/|test/resolver/other_path/lib/|test/module_dir/xmodules/aaa/|test/dotdot/|test/module_dir/ymodules/aaa/|test/resolver/multirepo/packages/package-a/|test/resolver/multirepo/packages/package-b/" kind="src" path="node_modules/resolve"/>
+	<classpathentry kind="src" path="node_modules/resolve-cwd"/>
+	<classpathentry kind="src" path="node_modules/resolve-from"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/resolve-url"/>
+	<classpathentry kind="src" path="node_modules/resolve-url/test"/>
+	<classpathentry kind="src" path="node_modules/resolve/example"/>
+	<classpathentry kind="src" path="node_modules/resolve/lib"/>
+	<classpathentry excluding="module_dir/zmodules/bbb/|resolver/same_names/foo/|resolver/other_path/|resolver/incorrect_main/|resolver/browser_field/|dotdot/abc/|precedence/aaa/|node_path/x/aaa/|pathfilter/deep_ref/|precedence/bbb/|resolver/symlinked/_/node_modules/|precedence/|resolver/dot_main/|resolver/|resolver/quux/foo/|node_path/y/bbb/|resolver/baz/|node_path/y/ccc/|resolver/without_basedir/|resolver/dot_slash_main/|resolver/same_names/|node_path/x/ccc/|resolver/other_path/lib/|module_dir/xmodules/aaa/|dotdot/|module_dir/ymodules/aaa/|resolver/multirepo/packages/package-a/|resolver/multirepo/packages/package-b/" kind="src" path="node_modules/resolve/test"/>
+	<classpathentry excluding="abc/" kind="src" path="node_modules/resolve/test/dotdot"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/dotdot/abc"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/module_dir/xmodules/aaa"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/module_dir/ymodules/aaa"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/module_dir/zmodules/bbb"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/node_path/x/aaa"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/node_path/x/ccc"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/node_path/y/bbb"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/node_path/y/ccc"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/pathfilter/deep_ref"/>
+	<classpathentry excluding="aaa/|bbb/" kind="src" path="node_modules/resolve/test/precedence"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/precedence/aaa"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/precedence/bbb"/>
+	<classpathentry excluding="same_names/foo/|other_path/|incorrect_main/|browser_field/|symlinked/_/node_modules/|dot_main/|quux/foo/|baz/|without_basedir/|dot_slash_main/|same_names/|other_path/lib/|multirepo/packages/package-a/|multirepo/packages/package-b/" kind="src" path="node_modules/resolve/test/resolver"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/baz"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/browser_field"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/dot_main"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/dot_slash_main"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/incorrect_main"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/multirepo/packages/package-a"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/multirepo/packages/package-b"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/resolve/test/resolver/other_path"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/other_path/lib"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/quux/foo"/>
+	<classpathentry excluding="foo/" kind="src" path="node_modules/resolve/test/resolver/same_names"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/same_names/foo"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/symlinked/_/node_modules"/>
+	<classpathentry kind="src" path="node_modules/resolve/test/resolver/without_basedir"/>
+	<classpathentry kind="src" path="node_modules/ret/lib"/>
+	<classpathentry kind="src" path="node_modules/rimraf"/>
+	<classpathentry excluding="es6/" kind="src" path="node_modules/rsvp/dist"/>
+	<classpathentry kind="src" path="node_modules/rsvp/dist/es6"/>
+	<classpathentry excluding="rsvp/promise/|rsvp/" kind="src" path="node_modules/rsvp/lib"/>
+	<classpathentry excluding="promise/" kind="src" path="node_modules/rsvp/lib/rsvp"/>
+	<classpathentry kind="src" path="node_modules/rsvp/lib/rsvp/promise"/>
+	<classpathentry kind="src" path="node_modules/safe-buffer"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/safe-regex"/>
+	<classpathentry kind="src" path="node_modules/safe-regex/example"/>
+	<classpathentry kind="src" path="node_modules/safe-regex/test"/>
+	<classpathentry kind="src" path="node_modules/safer-buffer"/>
+	<classpathentry excluding="src/|src/utils/" kind="src" path="node_modules/sane"/>
+	<classpathentry excluding="utils/" kind="src" path="node_modules/sane/src"/>
+	<classpathentry kind="src" path="node_modules/sane/src/utils"/>
+	<classpathentry kind="src" path="node_modules/sax/lib"/>
+	<classpathentry kind="src" path="node_modules/semver"/>
+	<classpathentry kind="src" path="node_modules/send"/>
+	<classpathentry kind="src" path="node_modules/serve-static"/>
+	<classpathentry kind="src" path="node_modules/set-blocking"/>
+	<classpathentry excluding="node_modules/extend-shallow/" kind="src" path="node_modules/set-value"/>
+	<classpathentry kind="src" path="node_modules/set-value/node_modules/extend-shallow"/>
+	<classpathentry kind="src" path="node_modules/setprototypeof"/>
+	<classpathentry kind="src" path="node_modules/shebang-command"/>
+	<classpathentry kind="src" path="node_modules/shebang-regex"/>
+	<classpathentry kind="src" path="node_modules/shellwords/lib"/>
+	<classpathentry kind="src" path="node_modules/signal-exit"/>
+	<classpathentry kind="src" path="node_modules/sisteransi/src"/>
+	<classpathentry kind="src" path="node_modules/slash"/>
+	<classpathentry excluding="lib/|node_modules/extend-shallow/|node_modules/source-map/dist/|node_modules/source-map/|node_modules/source-map/lib/|node_modules/define-property/" kind="src" path="node_modules/snapdragon"/>
+	<classpathentry excluding="node_modules/is-descriptor/|node_modules/define-property/|node_modules/is-accessor-descriptor/|node_modules/is-data-descriptor/" kind="src" path="node_modules/snapdragon-node"/>
+	<classpathentry kind="src" path="node_modules/snapdragon-node/node_modules/define-property"/>
+	<classpathentry kind="src" path="node_modules/snapdragon-node/node_modules/is-accessor-descriptor"/>
+	<classpathentry kind="src" path="node_modules/snapdragon-node/node_modules/is-data-descriptor"/>
+	<classpathentry kind="src" path="node_modules/snapdragon-node/node_modules/is-descriptor"/>
+	<classpathentry excluding="node_modules/kind-of/" kind="src" path="node_modules/snapdragon-util"/>
+	<classpathentry kind="src" path="node_modules/snapdragon-util/node_modules/kind-of"/>
+	<classpathentry kind="src" path="node_modules/snapdragon/lib"/>
+	<classpathentry kind="src" path="node_modules/snapdragon/node_modules/define-property"/>
+	<classpathentry kind="src" path="node_modules/snapdragon/node_modules/extend-shallow"/>
+	<classpathentry excluding="dist/|lib/" kind="src" path="node_modules/snapdragon/node_modules/source-map"/>
+	<classpathentry kind="src" path="node_modules/snapdragon/node_modules/source-map/dist"/>
+	<classpathentry kind="src" path="node_modules/snapdragon/node_modules/source-map/lib"/>
+	<classpathentry excluding="lib/|dist/" kind="src" path="node_modules/source-map"/>
+	<classpathentry excluding="lib/|test/" kind="src" path="node_modules/source-map-resolve"/>
+	<classpathentry kind="src" path="node_modules/source-map-resolve/lib"/>
+	<classpathentry kind="src" path="node_modules/source-map-resolve/test"/>
+	<classpathentry kind="src" path="node_modules/source-map-support"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/source-map-url"/>
+	<classpathentry kind="src" path="node_modules/source-map-url/test"/>
+	<classpathentry kind="src" path="node_modules/source-map/dist"/>
+	<classpathentry kind="src" path="node_modules/source-map/lib"/>
+	<classpathentry kind="src" path="node_modules/spdx-correct"/>
+	<classpathentry kind="src" path="node_modules/spdx-expression-parse"/>
+	<classpathentry kind="src" path="node_modules/split-string"/>
+	<classpathentry excluding="src/|test/|dist/" kind="src" path="node_modules/sprintf-js"/>
+	<classpathentry kind="src" path="node_modules/sprintf-js/dist"/>
+	<classpathentry kind="src" path="node_modules/sprintf-js/src"/>
+	<classpathentry kind="src" path="node_modules/sprintf-js/test"/>
+	<classpathentry excluding="formats/" kind="src" path="node_modules/sshpk/lib"/>
+	<classpathentry kind="src" path="node_modules/sshpk/lib/formats"/>
+	<classpathentry kind="src" path="node_modules/stack-utils"/>
+	<classpathentry excluding="node_modules/define-property/" kind="src" path="node_modules/static-extend"/>
+	<classpathentry kind="src" path="node_modules/static-extend/node_modules/define-property"/>
+	<classpathentry kind="src" path="node_modules/statuses"/>
+	<classpathentry kind="src" path="node_modules/stealthy-require/lib"/>
+	<classpathentry kind="src" path="node_modules/string_decoder/lib"/>
+	<classpathentry excluding="node_modules/ansi-regex/|node_modules/strip-ansi/" kind="src" path="node_modules/string-length"/>
+	<classpathentry kind="src" path="node_modules/string-length/node_modules/ansi-regex"/>
+	<classpathentry kind="src" path="node_modules/string-length/node_modules/strip-ansi"/>
+	<classpathentry excluding="node_modules/ansi-regex/|node_modules/strip-ansi/" kind="src" path="node_modules/string-width"/>
+	<classpathentry kind="src" path="node_modules/string-width/node_modules/ansi-regex"/>
+	<classpathentry kind="src" path="node_modules/string-width/node_modules/strip-ansi"/>
+	<classpathentry kind="src" path="node_modules/strip-ansi"/>
+	<classpathentry kind="src" path="node_modules/strip-bom"/>
+	<classpathentry kind="src" path="node_modules/strip-eof"/>
+	<classpathentry kind="src" path="node_modules/supports-color"/>
+	<classpathentry kind="src" path="node_modules/symbol-tree/lib"/>
+	<classpathentry kind="src" path="node_modules/test-exclude"/>
+	<classpathentry kind="src" path="node_modules/throat"/>
+	<classpathentry kind="src" path="node_modules/tmpl/lib"/>
+	<classpathentry kind="src" path="node_modules/to-fast-properties"/>
+	<classpathentry excluding="node_modules/kind-of/" kind="src" path="node_modules/to-object-path"/>
+	<classpathentry kind="src" path="node_modules/to-object-path/node_modules/kind-of"/>
+	<classpathentry kind="src" path="node_modules/to-regex"/>
+	<classpathentry kind="src" path="node_modules/to-regex-range"/>
+	<classpathentry kind="src" path="node_modules/tough-cookie/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/tr46"/>
+	<classpathentry kind="src" path="node_modules/tr46/lib"/>
+	<classpathentry kind="src" path="node_modules/trim-right"/>
+	<classpathentry kind="src" path="node_modules/tunnel-agent"/>
+	<classpathentry kind="src" path="node_modules/tweetnacl"/>
+	<classpathentry kind="src" path="node_modules/type-check/lib"/>
+	<classpathentry kind="src" path="node_modules/type-is"/>
+	<classpathentry kind="src" path="node_modules/uglify-js/lib"/>
+	<classpathentry kind="src" path="node_modules/uglify-js/tools"/>
+	<classpathentry excluding="node_modules/extend-shallow/|node_modules/set-value/" kind="src" path="node_modules/union-value"/>
+	<classpathentry kind="src" path="node_modules/union-value/node_modules/extend-shallow"/>
+	<classpathentry kind="src" path="node_modules/union-value/node_modules/set-value"/>
+	<classpathentry kind="src" path="node_modules/unpipe"/>
+	<classpathentry excluding="node_modules/has-value/node_modules/isobject/|node_modules/has-value/|node_modules/has-values/" kind="src" path="node_modules/unset-value"/>
+	<classpathentry excluding="node_modules/isobject/" kind="src" path="node_modules/unset-value/node_modules/has-value"/>
+	<classpathentry kind="src" path="node_modules/unset-value/node_modules/has-value/node_modules/isobject"/>
+	<classpathentry kind="src" path="node_modules/unset-value/node_modules/has-values"/>
+	<classpathentry excluding="dist/es5/|tests/|dist/esnext/schemes/|dist/esnext/" kind="src" path="node_modules/uri-js"/>
+	<classpathentry kind="src" path="node_modules/uri-js/dist/es5"/>
+	<classpathentry excluding="schemes/" kind="src" path="node_modules/uri-js/dist/esnext"/>
+	<classpathentry kind="src" path="node_modules/uri-js/dist/esnext/schemes"/>
+	<classpathentry kind="src" path="node_modules/uri-js/tests"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/urix"/>
+	<classpathentry kind="src" path="node_modules/urix/test"/>
+	<classpathentry kind="src" path="node_modules/use"/>
+	<classpathentry kind="src" path="node_modules/util-deprecate"/>
+	<classpathentry kind="src" path="node_modules/util.promisify"/>
+	<classpathentry kind="src" path="node_modules/utils-merge"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/uuid"/>
+	<classpathentry kind="src" path="node_modules/uuid/lib"/>
+	<classpathentry kind="src" path="node_modules/validate-npm-package-license"/>
+	<classpathentry kind="src" path="node_modules/vary"/>
+	<classpathentry kind="src" path="node_modules/verror/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/w3c-hr-time"/>
+	<classpathentry kind="src" path="node_modules/w3c-hr-time/lib"/>
+	<classpathentry kind="src" path="node_modules/walker/lib"/>
+	<classpathentry kind="src" path="node_modules/webidl-conversions/lib"/>
+	<classpathentry kind="src" path="node_modules/whatwg-encoding/lib"/>
+	<classpathentry kind="src" path="node_modules/whatwg-mimetype/lib"/>
+	<classpathentry kind="src" path="node_modules/whatwg-url/lib"/>
+	<classpathentry kind="src" path="node_modules/which"/>
+	<classpathentry kind="src" path="node_modules/which-module"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/wordwrap"/>
+	<classpathentry kind="src" path="node_modules/wordwrap/example"/>
+	<classpathentry kind="src" path="node_modules/wordwrap/test"/>
+	<classpathentry excluding="node_modules/strip-ansi/|node_modules/is-fullwidth-code-point/|node_modules/ansi-regex/|node_modules/string-width/" kind="src" path="node_modules/wrap-ansi"/>
+	<classpathentry kind="src" path="node_modules/wrap-ansi/node_modules/ansi-regex"/>
+	<classpathentry kind="src" path="node_modules/wrap-ansi/node_modules/is-fullwidth-code-point"/>
+	<classpathentry kind="src" path="node_modules/wrap-ansi/node_modules/string-width"/>
+	<classpathentry kind="src" path="node_modules/wrap-ansi/node_modules/strip-ansi"/>
+	<classpathentry kind="src" path="node_modules/wrappy"/>
+	<classpathentry kind="src" path="node_modules/write-file-atomic"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/ws"/>
+	<classpathentry kind="src" path="node_modules/ws/lib"/>
+	<classpathentry kind="src" path="node_modules/xml-name-validator/lib"/>
+	<classpathentry kind="src" path="node_modules/y18n"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/yargs"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/yargs-parser"/>
+	<classpathentry kind="src" path="node_modules/yargs-parser/lib"/>
+	<classpathentry kind="src" path="node_modules/yargs/lib"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

@@ -1,0 +1,21 @@
+{
+  "name": "bambee",
+  "version": "1.0.0",
+  "description": "Coding Test for Bambee HR (LA)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "author": "Mark Williams",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "express": "^4.16.4",
+    "jest": "^24.5.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "dependencies": {
+    "mongodb": "^3.2.2"
+  }
+}
