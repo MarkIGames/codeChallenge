@@ -1,3 +1,20 @@
+/** NOTE:
+ * 
+ * This file implements all standard restful approaches:
+ * 
+ *  get/post/put/patch/delete
+ *  
+ * For the purposes of this project, put/patch are treated equally.
+ *  
+ * Login/Register routes were setup to reply on Post Body data rather then 
+ * appending them to the URL. This was an intentional choice, as they are
+ * likely already coming from form fields and this would require less
+ * javascript on the front to rebuild a URL to accomodate them.
+ * 
+ * Probably.
+ * 
+ */
+
 "use strict";
 
 //Require our configuration file
@@ -6,23 +23,27 @@ var config = require('../../config/config');
 const express = require('express');
 const router = express.Router();
 // Load custom modules
-const utilities       = require('../lib/utilities');
-const userController  = require('../services/userController');
-const taskController  = require('../services/taskController');
+const utilities    = require('../lib/utilities');
+const userService  = require('../services/userService');
+const taskService  = require('../services/taskService-v2');
 
 // User Functions
-router.get(    '/login',    userController.request);
-router.post(   '/login',    userController.create);
-router.put(    '/register', userController.replace);
-router.patch(  '/login',    userController.update);
-router.delete( '/register', userController.delete);
+router.post(   '/user/login',    userService.login);
+router.post(   '/user/register', userService.create);
+/*
+    router.get(    '/user/:userId',          userService.request);
+    router.patch(  '/user/:userId/update',   userService.update);
+    router.put(    '/user/:userId/update',   userService.update);
+    router.delete( '/user/:userId/delete',   userService.delete);
+*/
 
 // Task Functions
-router.get(    '/login',    taskController.request);
-router.post(   '/login',    taskController.create);
-router.put(    '/register', taskController.replace);
-router.patch(  '/login',    taskController.update);
-router.delete( '/register', taskController.delete);
+router.get(    '/task/:taskId', taskService.requestOne);
+router.get(    '/tasks',        taskService.requestMany);
+router.post(   '/task',         taskService.create);
+router.put(    '/task/:taskId', taskService.update);
+router.patch(  '/task/:taskId', taskService.update);
+router.delete( '/task/:taskId', taskService.delete);
 
 //Default Handling, returns 404
 router.get(    '/', utilities.noDetails);

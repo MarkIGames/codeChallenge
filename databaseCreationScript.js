@@ -45,7 +45,7 @@ async function buildDatabaseAndCollections(error, database) {
 		try {
 			await createCollection( databaseObject, 'users' );
 			await createCollection( databaseObject, 'tasks' );
-			await createCollection( databaseObject, 'authentication' ); // Creating a seperate JWT Database so we can log history of user tokens
+			// await createCollection( databaseObject, 'authentication' ); // Creating a seperate JWT Database so we can log history of user tokens
 		} catch (creationError) {
 			console.log("Unhandled Error in Collection Creation Run", creationError);
 		}
