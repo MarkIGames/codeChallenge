@@ -6,8 +6,8 @@ var config = require('../config/config');
 const express = require('express');
 var http = require('http');
 // Load custom modules
-const routerv1  = require('./router-v1');
-const routerv2  = require('./router-v2');
+const routerv1  = require('./routes/router-v1');
+const routerv2  = require('./routes/router-v2');
 
 // Setup the Express App
 const app = express();

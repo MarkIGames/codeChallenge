@@ -1,14 +1,14 @@
 "use strict";
 
 //Require our configuration file
-var config = require('../config/config');
+var config = require('../../config/config');
 // Load our other NPM Modules
 const express = require('express');
 const router = express.Router();
 // Load custom modules
-const utilities          = require('./lib/utilities');
-const userController     = require('./controllers/userController');
-const taskController     = require('./controllers/taskController');
+const utilities       = require('../lib/utilities');
+const userController  = require('../services/userController');
+const taskController  = require('../services/taskController');
 
 // User Functions
 router.get(    '/login',    userController.request);
