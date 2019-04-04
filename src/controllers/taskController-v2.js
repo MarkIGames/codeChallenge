@@ -1,13 +1,5 @@
 module.exports = {
 
-		authenticateRequest()  {
-			
-		},
-		
-		validateRequest() {
-			
-		},
-		
 		create(request, response) {
 			let crudOperator = require('../lib/crudOperator');
 			

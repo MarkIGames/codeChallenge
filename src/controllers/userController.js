@@ -1,4 +1,12 @@
 module.exports = {
+
+	authenticateRequest()  {
+		
+	},
+	
+	validateRequest() {
+		
+	},
 		
 	create(request, response) {
 		let crudOperator = require('../lib/crudOperator');
@@ -11,6 +19,14 @@ module.exports = {
 		let crudOperator = require('../lib/crudOperator');
 		
 		
+		
+	},
+	
+	requestMany() {
+		
+	},
+	
+	requestOne() {
 		
 	},
 	
